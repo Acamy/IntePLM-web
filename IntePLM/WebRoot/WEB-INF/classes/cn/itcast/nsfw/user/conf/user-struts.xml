@@ -12,7 +12,6 @@
 				<param name="user.name">${strName}</param>
 				<param name="encode">true</param>
 			</result>
-			
 		</action>
 	</package>
 
