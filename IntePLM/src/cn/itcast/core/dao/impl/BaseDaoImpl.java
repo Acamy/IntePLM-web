@@ -80,8 +80,8 @@ public abstract class BaseDaoImpl<T> extends HibernateDaoSupport implements Base
 		}
 		if(pageNo < 1) pageNo = 1;
 		
-		//query.setFirstResult((pageNo-1)*pageSize);//设置数据起始索引号
-		//query.setMaxResults(pageSize);
+		query.setFirstResult((pageNo-1)*pageSize);//设置数据起始索引号
+		query.setMaxResults(pageSize);
 		List items = query.list();
 		//获取总记录数
 		Query queryCount = getSession().createQuery(queryHelper.getQueryCountHql());
