@@ -92,11 +92,12 @@
 	<div class="banner">
 		<div class="menu">
 			<ul class="clearfix">
-				<li><a href="${basePath}sys/home.action" target="_top">我的工作台</a></li>
+				<li><a href="${basePath}sys/home.action" target="_top">我的空间</a></li>
+				<li><a href="${basePath}WorkSpace/WorkSpace_frame.action" target="_top">我的工作台</a></li>
                 <li><a href="javascript:void(0);">文档管理</a></li>
                 <li><a href="javascript:void(0);">工程单管理</a></li>
                 <li><a href="javascript:void(0);">流程管理</a></li>
-                <li><a href="javascript:void(0);">机构管理</a></li>
+                <li><a href="${basePath}nsfw/home_frame.action" target="_top">机构管理</a></li>
                 <li><a href="javascript:void(0);">系统管理</a></li>
 			</ul>
 		</div>

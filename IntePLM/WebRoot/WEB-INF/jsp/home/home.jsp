@@ -88,7 +88,8 @@
 <!-- 导航{ -->
 <div class="menu">
     <ul class="clearfix">
-        <li class="hover"><a href="javascript:void(0);">我的工作台</a></li>
+        <li class="hover"><a href="javascript:void(0);">我的空间</a></li>
+        <li><a href="${ctx }/WorkSpace/WorkSpace_frame.action">我的工作台</a></li>
         <li><a href="javascript:void(0);">文档管理</a></li>
         <li><a href="javascript:void(0);">工程单管理</a></li>
         <li><a href="javascript:void(0);">流程管理</a></li>       
