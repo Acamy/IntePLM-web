@@ -1,7 +1,5 @@
 package cn.itcast.home.action;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.HashMap;
@@ -35,7 +33,7 @@ public class HomeAction extends ActionSupport {
 	
 	private Map<String, Object> return_map;
 	private Complain comp;
-	//跳转到首页
+	//跳转到首页123
 	public String execute(){
 		return "home";
 	}
