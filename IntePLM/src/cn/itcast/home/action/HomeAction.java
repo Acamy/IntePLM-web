@@ -45,7 +45,7 @@ public class HomeAction extends ActionSupport {
 	
 	public void getUserJson(){
 		try {
-			//1、获取部门
+			//1、获取部门1
 			String dept = ServletActionContext.getRequest().getParameter("dept");
 			if(StringUtils.isNotBlank(dept)){
 				QueryHelper queryHelper = new QueryHelper(User.class, "u");
